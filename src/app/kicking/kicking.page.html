@@ -1,0 +1,60 @@
+<ion-header class="ion-no-border">
+  <img src="assets/images/swimming101-banner-mini.png">
+  <ion-toolbar>
+    <div class="titles">
+      <h3 class="ion-text-center" >
+        SWIMMING STROKES and a few details...
+      </h3>
+      <p class="ion-text-center"> "We are not some sort of "Know It All"... </p>
+      <p class="ion-text-center"> hope you are not one too..." </p>
+    </div>    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-background-color: dark;">
+
+  <ion-row> 
+    <ion-col size="12">
+          <ion-card *ngFor="let article of articles" color="success" style="width: 100%; margin: auto;">
+          <ion-card-content>
+            <div class="img-wrapper" >
+              <h1 class="h1"> "{{article.title}}" </h1>
+              <p><br></p>
+              <ion-img style="width: 100%;"src="assets/images/strokes/backstroke.jpg"></ion-img>          
+              <h2> <br> {{article.desc1}} </h2>
+              <h2> <br> {{article.desc2}} </h2>
+              <h2> <br> {{article.desc3}} </h2>
+              <h2> <ion-badge color="light" slot="start"> <ion-icon color="primary" name="water" size="small"> </ion-icon> </ion-badge> {{article.desc4}} </h2>
+              <h2> <ion-badge color="light" slot="start"> <ion-icon color="primary" name="water" size="small"> </ion-icon> </ion-badge> {{article.desc5}} </h2>
+              <h2> <ion-badge color="light" slot="start"> <ion-icon color="primary" name="water" size="small"> </ion-icon> </ion-badge> {{article.desc5}} </h2>
+              <p><br> Credits to: {{article.credit}} </p>
+            </div>
+          </ion-card-content>
+
+            <ion-toolbar lines="true">
+              <ion-buttons slot="start"> 
+                <ion-back-button defaultHref="/"> 
+                <ion-icon size="large"> </ion-icon>
+                </ion-back-button> 
+                </ion-buttons> Click to Return 
+            </ion-toolbar>
+          </ion-card>   
+    </ion-col> 
+  </ion-row>
+</ion-content>
+
+
+<!-- <FOOTER> -->
+<ion-footer>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab-bar>
+        
+        <!-- <ion-tab-button tab="contact"> -->
+            <ion-img src="assets/images/swimming101-banner-mini.png" style="width: 100%; margin: auto;"></ion-img>
+        <!-- </ion-tab-button> -->
+
+      </ion-tab-bar>
+    </ion-tabs>
+  </ion-toolbar>
+</ion-footer>
