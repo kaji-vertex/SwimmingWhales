@@ -1,6 +1,6 @@
 <ion-header class="ion-no-border">
-  <ion-toolbar>
-    <ion-title size="small"> The Thing About Swimming... and STROKES! </ion-title>
+  <ion-toolbar color=dark>
+    <ion-title size="small"> The thing about Swimming... and STROKES! </ion-title>
     <ion-button slot="end" (click)="closeModal()" color="danger">
       <ion-icon name="close-outline"></ion-icon>
     </ion-button>
@@ -10,45 +10,50 @@
 </ion-header>
 
 
-<ion-content>
-  <ion-card>
+<ion-content color="dark" class="ion-no-border">
+  <ion-card color="success">
     <ion-card-content>
       <p>Swimming offers tremendous fitness benefits. The Centers for Disease Control and Prevention says that just 2.5 hours of swimming per week decreases the risk of chronic illnesses. Swimming improves mood and decreases anxiety, and the buoyancy of the water makes swimming a good choice for those with arthritis and other pain conditions. Even if you have no plans to become the next Michael Phelps, basic swimming skills are easy to learn. </p>
-      <p> <br> Here are some of the basic STROKES in swimming. </p>
+      <br>
+      <p> Here are some of the basic STROKES in swimming. </p>
     </ion-card-content>
-  </ion-card>
+  </ion-card>  
+      <ion-list lines="full" color="dark" >
+        <ion-card>
+          <ion-item (click)="waterComfort()" color="success" class="ion-align-items-center">
+            <ion-label> FREESTYLE </ion-label>
+            <ion-icon name="caret-forward" size="large" color="dark"></ion-icon> 
+          </ion-item>
+        </ion-card>
+      
+      <ion-card>
+        <ion-item (click)="breathControl()" color="success">          
+          <ion-label> BREASTSTROKE </ion-label>
+          <ion-icon slot="end" name="caret-forward" size="large" color="dark"></ion-icon> 
+        </ion-item>
+      </ion-card>
 
-  <ion-list lines="full">
-    <ion-item (click)="waterComfort()" color="success" class="ion-align-items-center">
-      <ion-label> 
-        <ion-icon name="alert-circle-outline" size="small" class="ion-align-items-start"></ion-icon> FREESTYLE
-      </ion-label>
-    </ion-item>
+      <ion-card>
+        <ion-item (click)="floating()" color="success">
+          <ion-label> BUTTERFLY </ion-label>
+          <ion-icon slot="end" name="caret-forward" size="large" color="dark"></ion-icon> 
+        </ion-item>
+      </ion-card>
 
-    <ion-item (click)="breathControl()" color="success">
-      <ion-label> 
-        <ion-icon name="alert-circle-outline" size="small" class="ion-align-items-start"></ion-icon> BREASTSTROKE
-      </ion-label>
-    </ion-item>
+      <ion-card>
+        <ion-item (click)="kicking()" color="success">
+          <ion-label> BACKSTROKE </ion-label>
+          <ion-icon slot="end" name="caret-forward" size="large" color="dark"></ion-icon> 
+        </ion-item>
+      </ion-card>
 
-    <ion-item (click)="floating()" color="success">
-      <ion-label> 
-        <ion-icon name="alert-circle-outline" size="small" class="ion-align-items-start"></ion-icon> BUTTERFLY
-      </ion-label>
-    </ion-item>
+      <ion-card>
+        <ion-item (click)="strokes()" color="success">
+          <ion-label> SIDESTROKE </ion-label>
+          <ion-icon slot="end" name="caret-forward" size="large" color="dark"></ion-icon> 
+        </ion-item>
+      </ion-card>
 
-    <ion-item (click)="kicking()" color="success">
-      <ion-label> 
-        <ion-icon name="alert-circle-outline" size="small" class="ion-align-items-start"></ion-icon> BACKSTROKE
-      </ion-label>
-    </ion-item>
-
-    <ion-item (click)="strokes()" color="success">
-      <ion-label> 
-        <ion-icon name="alert-circle-outline" size="small" class="ion-align-items-start"></ion-icon> SIDESTROKE
-      </ion-label>
-    </ion-item>
-
-  </ion-list>
+      </ion-list>
 
 </ion-content>

@@ -1,27 +1,13 @@
 <ion-header class="ion-no-border">
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-buttons slot="start">
-      <ion-back-button text="" icon="arrow-back" defaultHref="/home"></ion-back-button>
-      <ion-title> Click Here to Return </ion-title>
+      <ion-back-button text="" icon="arrow-back" defaultHref="/home" color="success"></ion-back-button>
+      <ion-title color="success"> <!-- Click Here to Return -->  </ion-title>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
-<!-- <ion-header >
-  <ion-toolbar>
-  </ion-toolbar>
-</ion-header> -->
 
-<!-- <ion-content>
-<ion-card>
-  <ion-card-content>
-    <h1>id: {{id}}</h1>
-    <h1>Guideline: {{guideline_name}}</h1>
-    <h1>Description: {{description}}</h1>
-  </ion-card-content>
-</ion-card>
-</ion-content> -->
-
-<ion-content>
+<ion-content color="dark">
 
   
 <ion-card color="success">
@@ -39,12 +25,12 @@
       </ion-col>
       <ion-col size="12" style="width: 100%; margin: auto;">
         <img src="{{imgToURL}}" alt="">
-        <!-- <img [src]="imgToURL"> -->
-        <ion-badge>
-          <ion-icon name="water"> </ion-icon>
+        <br>
+        <ion-badge color="dark">
+          <ion-icon name="water" color="primary"> </ion-icon>
           
         </ion-badge>
-        <p> Credits to: {{owner}} </p>
+        <i> Credits to: {{owner}} </i>
       </ion-col>
     </ion-row>
   </ion-card-content>
