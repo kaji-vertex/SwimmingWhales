@@ -51,3 +51,5 @@ export class FloatingPage implements OnInit {
   }
 
 }
+
+

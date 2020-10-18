@@ -58,3 +58,5 @@ export class KickingPage implements OnInit {
   }
 
 }
+
+

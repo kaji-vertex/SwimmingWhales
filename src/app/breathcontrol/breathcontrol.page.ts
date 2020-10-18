@@ -51,3 +51,4 @@ export class BreathcontrolPage implements OnInit {
   }
 
 }
+

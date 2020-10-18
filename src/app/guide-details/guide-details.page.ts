@@ -33,3 +33,5 @@ export class GuideDetailsPage implements OnInit {
   }
 
 }
+
+
