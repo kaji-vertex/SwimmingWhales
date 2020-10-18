@@ -16,7 +16,7 @@ export class FloatingPage implements OnInit {
           "title": "Butterfly Stroke!",
           "desc1": "Butterfly Stroke is the toughest and competitive stroke used by the swimmers, thrilling to watch and unique in nature. The butterfly stroke was founded by the Australian named Sydney Cavill, the stroke spread like fire when Sydney went to the USA and inspired players like Michael Phelps, who carried on Sydney legacy and reframed the art of the butterfly stroke.",
           "desc2": "The swimmer uses a symmetrical arm stroke to create a wavelike body undulating with a dolphin kick. For a beginner, it is quite exhausting and requires some serious skill to master. It is the second-fastest swim stroke after freestyle.",
-          "desc3": "Note, don’t juggle normal kick with a dolphin kick. It is different.",
+          "desc3": "Note: don’t juggle normal kick with a dolphin kick. It is different.",
           "credit": ["Gentrit Sylejmani (Photo)"," sportzcrazzy (content)"],
           "imageToURL": "assets/images/strokes/butterfly.jpg",
         },

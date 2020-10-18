@@ -22,9 +22,10 @@ export class StrokesPage implements OnInit {
               "desc5": "Dry-Land Sidestroke Swimming Motions",
               "desc6": "Swimming sidestroke with a swim noodle",
               "desc7": "Sid stroke arm motions with a pull buoy",
-              "desc8": "Scissorkick in the water with a swim noodleSwimming sidestroke with a swim noodle",
+              "desc8": "Scissorkick in the water with a swim noodle",
               "desc9": "Swimming side stroke",
               "desc10": "Alternating Sidestroke and Breaststroke",
+
               "credit": ["Keeze@Pixabay (Photo)"," sportzcrazzy (content)"],
               "imageToURL": "assets/images/strokes/backstroke.jpg",
             },

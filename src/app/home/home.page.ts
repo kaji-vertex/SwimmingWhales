@@ -28,7 +28,7 @@ export class HomePage {
       {
         "id": 1,
         "guideline_name": "Breath Control",
-        "description": ["Breathing is often difficult for novice swimmers. With water all around, having some water enters the nose and mouth is a common occurrence. Some novice swimmers panic at the feeling of water in their noses, while others have trouble holding their breath while submerged. Learning to control your breathing is a key component in learning to swim.Each game is divided into sections, and all levels have two halves. In college, each half is twenty minutes long."," Breath control begins with simple exercises such as drawing a breath, submerging, blowing bubbles and then resurfacing for another breath. As your swimming skills improve, you will learn specific breathing techniques for different strokes. Work with a swimming coach or a friend or relative who is a strong swimmer."],
+        "description": "Breathing is often difficult for novice swimmers. With water all around, having some water enters the nose and mouth is a common occurrence. Some novice swimmers panic at the feeling of water in their noses, while others have trouble holding their breath while submerged. Learning to control your breathing is a key component in learning to swim. Each game is divided into sections, and all levels have two halves. In college, each half is twenty minutes long. Breath control begins with simple exercises such as drawing a breath, submerging, blowing bubbles and then resurfacing for another breath. As your swimming skills improve, you will learn specific breathing techniques for different strokes. Work with a swimming coach or a friend or relative who is a strong swimmer.",
         "owner": "Jess Vide (Photo)",
         "imgToURL": "assets/images/breathcontrol.webp"
       },
@@ -42,14 +42,14 @@ export class HomePage {
       {
         "id": 3,
         "guideline_name": "Kicking",
-        "description": "Kicking provides propulsion through the water. Once you are comfortable with floating, kicking is the logical next step. Kicking is also used in treading water, which is the process of remaining in one place while keeping your head above the water line. Many coaches use Kickboards, or flat flotation devices made of foam or plastic, to support the swimmer’s body. A keyboard allows you to focus solely on your kicking technique without worrying abouth staying afloat.",
+        "description": "Kicking provides propulsion through the water. Once you are comfortable with floating, kicking is the logical next step. Kicking is also used in treading water, which is the process of remaining in one place while keeping your head above the water line. Many coaches use Kickboards, or flat floatation devices made of foam or plastic, to support the swimmer’s body. A keyboard allows you to focus solely on your kicking technique without worrying abouth staying afloat.",
         "owner": "Sergio Souza (Photo)",
         "imgToURL": "assets/images/kicking.webp"
       },
       {
         "id": 4,
         "guideline_name": "Strokes",
-        "description": "Strokes are the arm movements used to pull the body through the water. The front crawl, sidestroke, breaststroke, backstroke and butterfly are the five most common swimming strokes. Each stoke uses different body positioning, breathing techniques and arm movements. Training with a qualified swimming coach is the best way to learn the various strokes.",
+        "description": "Strokes are the arm movements used to pull the body through the water. The front crawl, sidestroke, breaststroke, backstroke and butterfly are the five most common swimming strokes. Each stroke uses different body positioning, breathing techniques and arm movements. Training with a qualified swimming coach is the best way to learn the various strokes.",
         "owner": "Mali Maeder (Photo)",
         "imgToURL": "assets/images/strokes.webp"
       },
@@ -78,7 +78,7 @@ export class HomePage {
         {
           "id": 1,
           "guideline_name": "Breath Control",
-          "description": ["Breathing is often difficult for novice swimmers. With water all around, having some water enters the nose and mouth is a common occurrence. Some novice swimmers panic at the feeling of water in their noses, while others have trouble holding their breath while submerged. Learning to control your breathing is a key component in learning to swim.Each game is divided into sections, and all levels have two halves. In college, each half is twenty minutes long."," Breath control begins with simple exercises such as drawing a breath, submerging, blowing bubbles and then resurfacing for another breath. As your swimming skills improve, you will learn specific breathing techniques for different strokes. Work with a swimming coach or a friend or relative who is a strong swimmer."],
+          "description": "Breathing is often difficult for novice swimmers. With water all around, having some water enters the nose and mouth is a common occurrence. Some novice swimmers panic at the feeling of water in their noses, while others have trouble holding their breath while submerged. Learning to control your breathing is a key component in learning to swim. Each game is divided into sections, and all levels have two halves. In college, each half is twenty minutes long. Breath control begins with simple exercises such as drawing a breath, submerging, blowing bubbles and then resurfacing for another breath. As your swimming skills improve, you will learn specific breathing techniques for different strokes. Work with a swimming coach or a friend or relative who is a strong swimmer.",
           "owner": "Jess Vide (Photo)",
           "imgToURL": "assets/images/breathcontrol.webp"
         },
@@ -92,14 +92,14 @@ export class HomePage {
         {
           "id": 3,
           "guideline_name": "Kicking",
-          "description": "Kicking provides propulsion through the water. Once you are comfortable with floating, kicking is the logical next step. Kicking is also used in treading water, which is the process of remaining in one place while keeping your head above the water line. Many coaches use Kickboards, or flat flotation devices made of foam or plastic, to support the swimmer’s body. A keyboard allows you to focus solely on your kicking technique without worrying abouth staying afloat.",
+          "description": "Kicking provides propulsion through the water. Once you are comfortable with floating, kicking is the logical next step. Kicking is also used in treading water, which is the process of remaining in one place while keeping your head above the water line. Many coaches use Kickboards, or flat floatation devices made of foam or plastic, to support the swimmer’s body. A keyboard allows you to focus solely on your kicking technique without worrying abouth staying afloat.",
           "owner": "Med Gadon (Photo)",
           "imgToURL": "assets/images/kicking.webp"
         },
         {
           "id": 4,
           "guideline_name": "Strokes",
-          "description": "Strokes are the arm movements used to pull the body through the water. The front crawl, sidestroke, breaststroke, backstroke and butterfly are the five most common swimming strokes. Each stoke uses different body positioning, breathing techniques and arm movements. Training with a qualified swimming coach is the best way to learn the various strokes.",
+          "description": "Strokes are the arm movements used to pull the body through the water. The front crawl, sidestroke, breaststroke, backstroke and butterfly are the five most common swimming strokes. Each stroke uses different body positioning, breathing techniques and arm movements. Training with a qualified swimming coach is the best way to learn the various strokes.",
           "owner": "Mali Maeder (Photo)",
           "imgToURL": "assets/images/strokes.webp"
         },
