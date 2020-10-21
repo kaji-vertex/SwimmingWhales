@@ -1,4 +1,4 @@
-package io.ionic.swimmingwhales;
+package io.ionic.starter;
 
 import android.os.Bundle;
 

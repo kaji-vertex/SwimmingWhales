@@ -1,12 +1,12 @@
 {
-  "appId": "io.ionic.starter",
-  "appName": "swimming101",
+  "appId": "io.ionic.swimmingwhales",
+  "appName": "Swimming Whales",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
   "plugins": {
     "SplashScreen": {
-      "launchShowDuration": 0
+      "launchShowDuration": 3000
     }
   },
   "cordova": {}
