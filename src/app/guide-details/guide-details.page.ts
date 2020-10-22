@@ -9,11 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class GuideDetailsPage implements OnInit {
 
   id: any;
-  // tslint:disable-next-line: variable-name
   guideline_name: any;
   description: any;
-  // tslint:disable-next-line: variable-name
-  full_description: any;
+    full_description: any;
   owner: any;
   imgToURL: any;
 
@@ -27,11 +25,8 @@ export class GuideDetailsPage implements OnInit {
     this.description = this.actRoute.snapshot.paramMap.get('description');
     this.full_description = this.actRoute.snapshot.paramMap.get('full_description');
     this.owner = this.actRoute.snapshot.paramMap.get('owner');
-    this.imgToURL = this.actRoute.snapshot.paramMap.get('imgToURL');
-
-    // console.log(this.imgToURL);
+    this.imgToURL = this.actRoute.snapshot.paramMap.get('imgToURL');    
   }
-
 }
 
 

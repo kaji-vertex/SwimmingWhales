@@ -8,9 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./kicking.page.scss'],
 })
 export class KickingPage implements OnInit {
-
-
-        // for modal articles BREASTSTROKE
+        
         articles = [
           {
             "id": 1,
